@@ -62,7 +62,6 @@ namespace URI1045
             }
             else
             {
-                // primeiro vamos testas as tres possibilidades em relacao a angulos
                 if (A * A == B * B + C * C)
                 {
                     Console.WriteLine("TRIANGULO RETANGULO");
@@ -76,7 +75,6 @@ namespace URI1045
                     Console.WriteLine("TRIANGULO ACUTANGULO");
                 }
 
-                // agora vamos testar se pode ser equilatero ou isosceles
                 if (A == B && B == C)
                 {
                     Console.WriteLine("TRIANGULO EQUILATERO");
